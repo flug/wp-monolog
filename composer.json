@@ -1,0 +1,14 @@
+{
+    "name": "clooder/wp-monolog",
+    "require": {
+        "monolog/monolog": "dev-master"
+    },
+    "license": "MYT",
+    "authors": [
+        {
+            "name": "flug",
+            "email": "flug@clooder.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
