@@ -10,3 +10,5 @@ Author URI: clooder.com
 License: MYT
 */
 
+require_once dirname(__FILE__) . '/vendor/autoload.php';
+
