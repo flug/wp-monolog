@@ -1,7 +1,7 @@
 {
     "name": "clooder/wp-monolog",
     "require": {
-        "monolog/monolog": "dev-master"
+        "monolog/monolog": "~1.0"
     },
     "license": "MYT",
     "authors": [
