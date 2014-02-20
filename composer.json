@@ -3,7 +3,7 @@
     "require": {
         "monolog/monolog": "~1.0"
     },
-    "license": "MYT",
+    "license": "MIT",
     "authors": [
         {
             "name": "flug",
