@@ -29,7 +29,7 @@ add_action( 'init', 'Monolog_setup' );
 function Monolog_setup() {
     global $Mlog;
 
-    $filePath = ABSPATH . 'logs/log.log';
+    $filePath = ABSPATH . 'wp-logs/log.log';
     $max_size = (131072 * 10);
 
     $dateFormat = "Y m j, g:i a";
@@ -46,7 +46,7 @@ function Monolog_setup() {
 
     if(filesize($filePath) >= $max_size)
     {
-      if (copy($filePath, ABSPATH . 'logs/'.time(). '_log.log')) {
+      if (copy($filePath, ABSPATH . 'wp-logs/'.time(). '_log.log')) {
         unlink($filePath);
       }
     }
