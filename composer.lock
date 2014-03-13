@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "6b81ac8153be8ae33a877a79be3f61809f1448d9"
+                "reference": "dc75a998d83ebb285b94b1a6fd96644b457ed33c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/6b81ac8153be8ae33a877a79be3f61809f1448d9",
-                "reference": "6b81ac8153be8ae33a877a79be3f61809f1448d9",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/dc75a998d83ebb285b94b1a6fd96644b457ed33c",
+                "reference": "dc75a998d83ebb285b94b1a6fd96644b457ed33c",
                 "shasum": ""
             },
             "require": {
@@ -24,8 +24,8 @@
                 "psr/log": "~1.0"
             },
             "require-dev": {
-                "aws/aws-sdk-php": "~2.4.8",
-                "doctrine/couchdb": "dev-master",
+                "aws/aws-sdk-php": "~2.4, >2.4.8",
+                "doctrine/couchdb": "~1.0@dev",
                 "graylog2/gelf-php": "~1.0",
                 "phpunit/phpunit": "~3.7.0",
                 "raven/raven": "~0.5",
@@ -71,7 +71,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2014-02-23 15:06:45"
+            "time": "2014-03-09 20:51:48"
         },
         {
             "name": "psr/log",
