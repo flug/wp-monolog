@@ -39,9 +39,9 @@ function Monolog_setup() {
 
     $formatter = new LineFormatter($output, $dateFormat);
 
-    if(!file_exists(ABSPATH . 'logs'))
+    if(!file_exists(ABSPATH . 'wp-logs'))
     {
-      mkdir(ABSPATH . 'logs', 0777);
+      mkdir(ABSPATH . 'wp-logs', 0777);
     }
 
     if(filesize($filePath) >= $max_size)
